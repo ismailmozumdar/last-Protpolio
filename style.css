@@ -2,7 +2,7 @@
 *{
     margin: 0;
 }
-section{
+.flexebol-contient{
     display: flex;
 }
 body{
@@ -14,10 +14,11 @@ body{
     background-position: left;
     margin-bottom: 100px;
 }
-.About-container h1{
+ h1{
     font-family: 'Poppins', sans-serif;
     font-family: 'Prompt', sans-serif;
     font-family: 'Pushster', cursive;
+    font-size: 50px;
     line-height:100px;
 }
 .hap-with{
@@ -27,11 +28,8 @@ body{
 .hap-with img{
     width:80%;
 }
-h1{
-    font-size: 50px;
-}
 .orenge-color{
-    font-size: 30px;
+    font-size: 25px;
     color: orange;
 }
 span{
@@ -45,12 +43,43 @@ span{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 50px;
 }
 a{
     text-decoration: none;
-    background-image:linear-gradient(orange, red) ;
+    background-image:linear-gradient(salmon, rgb(255, 83, 4)) ;
     padding: 10px 40px;
     color: white;
     font-weight: 700;
     margin-top: 50px;
+    border-radius: 5px;
+}
+.Experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 40px;
+}
+#student-one{
+    border-left: 7px solid;
+    border-image:linear-gradient(salmon,rgb(255, 29, 29));
+    border-image-slice: 1;
+}
+#student-two{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(4, 255, 129),rgb(2, 217, 255));
+    border-image-slice: 1;
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
+footer p{
+    margin-top: 110px;
 }
