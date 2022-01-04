@@ -1,0 +1,31 @@
+section{
+    display: flex;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.About-container{
+    
+}
+.About-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Pushster', cursive;
+}
+.hap-with{
+    width: 50%;
+    padding-left: 5%;
+}
+.hap-with img{
+    width:80%;
+}
+h1{
+    font-size: 50px;
+}
+.orenge-color{
+    font-size: 40px;
+    color: orange;
+}
+span{
+    color: orange;
+}
