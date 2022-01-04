@@ -12,6 +12,7 @@ body{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-position: left;
+    margin-bottom: 100px;
 }
 .About-container h1{
     font-family: 'Poppins', sans-serif;
@@ -35,4 +36,21 @@ h1{
 }
 span{
     color: orange;
+}
+.hith{
+    margin-top:40px;
+    padding-right:20px;
+}
+.Dream-Big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+a{
+    text-decoration: none;
+    background-image:linear-gradient(orange, red) ;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
 }
